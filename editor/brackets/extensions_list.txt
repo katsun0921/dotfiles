@@ -1,0 +1,17 @@
+brackets-beautify/
+hirse.outline-list/
+brackets-emmet/
+introversed-dark/
+brackets-highlight-multibyte-symbols/
+io.brackets-sass-code-hints/
+brackets-html5codehints/
+jquinter/
+brackets-minify/
+mikaeljorhult.brackets-autoprefixer/
+brackets-sasshints/
+mskocik.brackets.icons/
+camden.jshint/
+new-moon/
+csscomb-brackets/
+qw0101.colorhighlighter/
+growlscript.brackets.classcompletion/

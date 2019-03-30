@@ -1,0 +1,12 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "Ricty Diminished"
+    fontSize: 21
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "3cfebc20-787c-488a-9898-e12f6525b0a6"
+  welcome:
+    showOnStartup: false
