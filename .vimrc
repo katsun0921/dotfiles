@@ -1,5 +1,23 @@
 set nocompatible
 
+" プラグイン導入 Vundle.vim
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+" 導入したいプラグインを以下に列挙
+" " Plugin '[Github Author]/[Github repo]' の形式で記入
+" Plugin 'airblade/vim-gitgutter'
+
+Plugin 'junegunn/fzf'
+
+Plugin 'junegunn/fzf.vim'
+call vundle#end()
+filetype plugin indent on
+
+
 " 画面表示の設定
 set number         " 行番号を表示する
 set cursorline     " カーソル行の背景色を変える
