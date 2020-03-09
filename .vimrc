@@ -12,8 +12,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'airblade/vim-gitgutter'
 
 Plugin 'junegunn/fzf'
-
 Plugin 'junegunn/fzf.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'preservim/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
@@ -75,3 +76,7 @@ set history=10000                       " コマンドラインの履歴を10000
 " ビープの設定
 set visualbell t_vb=    "ビープ音すべてを無効にする
 set noerrorbells        "エラーメッセージの表示時にビープを鳴らさない
+
+" プラグイン設定
+" preservim/nerdtree
+nnoremap<silent><C-e> :NERDTreeToggle<CR>   " Ctrl+Eで開く
