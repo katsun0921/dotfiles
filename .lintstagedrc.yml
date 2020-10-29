@@ -1,0 +1,9 @@
+'*.js':
+  - npm run dev:js
+'*.ts':
+  - npm run dev:ts
+'*.scss':
+  - npm run dev:css:prefix
+  - npm run dev:css:lint
+'*.{md,json}':
+  - npm run format
